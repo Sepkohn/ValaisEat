@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace DAL
+namespace BLL
 {
     public class Class1
     {
-
     }
 }

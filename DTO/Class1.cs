@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace DAL
+namespace DTO
 {
     public class Class1
     {
-
     }
 }

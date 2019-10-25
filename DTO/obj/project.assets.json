@@ -207,16 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "DTO/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/DTO.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DTO.dll": {}
-        }
       }
     }
   },
@@ -690,16 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "DTO/1.0.0": {
-      "type": "project",
-      "path": "../DTO/DTO.csproj",
-      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "DTO >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -710,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj",
+      "projectName": "DTO",
+      "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj",
       "packagesPath": "C:\\Users\\uadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\obj\\",
+      "outputPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -732,11 +716,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

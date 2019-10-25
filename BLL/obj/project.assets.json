@@ -208,6 +208,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
       "DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -691,6 +704,11 @@
         "netstandard.library.nuspec"
       ]
     },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DLL/DAL.csproj",
+      "msbuildProject": "../DLL/DAL.csproj"
+    },
     "DTO/1.0.0": {
       "type": "project",
       "path": "../DTO/DTO.csproj",
@@ -699,6 +717,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "DAL >= 1.0.0",
       "DTO >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
@@ -710,11 +729,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj",
+      "projectUniqueName": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\BLL\\BLL.csproj",
+      "projectName": "BLL",
+      "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\BLL\\BLL.csproj",
       "packagesPath": "C:\\Users\\uadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\obj\\",
+      "outputPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -733,6 +752,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DLL\\DAL.csproj"
+            },
             "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj": {
               "projectPath": "C:\\Users\\uadmin\\Source\\Repos\\ValaisEat\\DTO\\DTO.csproj"
             }
